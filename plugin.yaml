@@ -1,0 +1,8 @@
+name: "apply"
+# Version is the version of Helm plus the number of official builds for this
+# plugin
+version: "0.1.0"
+usage: "Apply a specific values file inside of a helm chart"
+description: "Apply a specific values file inside of a helm chart"
+useTunnel: true
+command: "$HELM_PLUGIN_DIR/bin/apply"
